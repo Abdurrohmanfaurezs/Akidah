@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091321A1218B3B6700D5B6AC /* tuabat.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321A0218B3B6600D5B6AC /* tuabat.png */; };
+		091321A3218B3EBF00D5B6AC /* muraqabah.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321A2218B3EBF00D5B6AC /* muraqabah.png */; };
+		091321A5218B40C800D5B6AC /* muhasabah.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321A4218B40C700D5B6AC /* muhasabah.png */; };
+		091321A7218B447400D5B6AC /* mujahada.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321A6218B447400D5B6AC /* mujahada.png */; };
+		091321A9218B4C9400D5B6AC /* tanda.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321A8218B4C9400D5B6AC /* tanda.png */; };
+		091321AB218B521300D5B6AC /* org tua.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321AA218B521200D5B6AC /* org tua.png */; };
+		091321AD218B546A00D5B6AC /* anak.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321AC218B546900D5B6AC /* anak.png */; };
+		091321AF218B564A00D5B6AC /* saudara.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321AE218B564A00D5B6AC /* saudara.png */; };
+		091321B1218BDB1400D5B6AC /* suami.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321B0218BDB1400D5B6AC /* suami.png */; };
+		091321B3218BDE9B00D5B6AC /* kerabat.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321B2218BDE9B00D5B6AC /* kerabat.png */; };
+		091321B5218BE14300D5B6AC /* tetangag.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321B4218BE14300D5B6AC /* tetangag.png */; };
+		091321B7218BE49100D5B6AC /* haka.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321B6218BE49100D5B6AC /* haka.png */; };
+		091321B9218BE7F400D5B6AC /* kafir.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321B8218BE7F300D5B6AC /* kafir.png */; };
+		091321BB218BE99300D5B6AC /* sayang.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321BA218BE99300D5B6AC /* sayang.png */; };
+		091321BD218BED8C00D5B6AC /* tangan.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321BC218BED8C00D5B6AC /* tangan.png */; };
+		091321BF218C315300D5B6AC /* Screenshot 2018-11-02 at 14.16.15.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321BE218C315200D5B6AC /* Screenshot 2018-11-02 at 14.16.15.png */; };
+		091321C1218C392600D5B6AC /* Screenshot 2018-11-02 at 14.48.14.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321C0218C392600D5B6AC /* Screenshot 2018-11-02 at 14.48.14.png */; };
+		091321C3218C8EDD00D5B6AC /* 11925.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 091321C2218C8EDC00D5B6AC /* 11925.jpg */; };
+		091321C5218C919600D5B6AC /* tamu.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321C4218C919600D5B6AC /* tamu.png */; };
+		091321C7218C939300D5B6AC /* far.png in Resources */ = {isa = PBXBuildFile; fileRef = 091321C6218C939200D5B6AC /* far.png */; };
+		0937D422218A933A00709142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937D421218A933A00709142 /* AppDelegate.swift */; };
+		0937D424218A933A00709142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937D423218A933A00709142 /* ViewController.swift */; };
+		0937D427218A933A00709142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0937D425218A933A00709142 /* Main.storyboard */; };
+		0937D42C218A933C00709142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0937D42A218A933C00709142 /* LaunchScreen.storyboard */; };
+		0937D434218A959800709142 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D433218A959800709142 /* image.png */; };
+		0937D436218A9B1100709142 /* Screenshot 2018-11-01 at 09.21.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D435218A9B1100709142 /* Screenshot 2018-11-01 at 09.21.55.png */; };
+		0937D438218A9C6900709142 /* allah.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D437218A9C6900709142 /* allah.png */; };
+		0937D43A218A9D6800709142 /* al Quran.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D439218A9D6800709142 /* al Quran.png */; };
+		0937D43C218AA4EE00709142 /* muhammad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D43B218AA4EE00709142 /* muhammad.png */; };
+		0937D43E218AA5A600709142 /* Diri.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D43D218AA5A600709142 /* Diri.png */; };
+		0937D440218AA78000709142 /* makhluk.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D43F218AA77F00709142 /* makhluk.png */; };
+		0937D442218AA82300709142 /* bersaudara.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D441218AA82300709142 /* bersaudara.png */; };
+		0937D444218AA90A00709142 /* majlis.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D443218AA90A00709142 /* majlis.png */; };
+		0937D446218AABA800709142 /* makan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D445218AABA800709142 /* makan.png */; };
+		0937D44B218AAE9D00709142 /* Safar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D447218AAE9C00709142 /* Safar.png */; };
+		0937D44C218AAE9D00709142 /* Fitrah.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D448218AAE9C00709142 /* Fitrah.png */; };
+		0937D44D218AAE9D00709142 /* Bertamu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D449218AAE9C00709142 /* Bertamu.png */; };
+		0937D44E218AAE9D00709142 /* Tidur.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D44A218AAE9D00709142 /* Tidur.png */; };
+		0937D450218AAF5000709142 /* Berpakain.png in Resources */ = {isa = PBXBuildFile; fileRef = 0937D44F218AAF5000709142 /* Berpakain.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091321A0218B3B6600D5B6AC /* tuabat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tuabat.png; path = ../../tuabat.png; sourceTree = "<group>"; };
+		091321A2218B3EBF00D5B6AC /* muraqabah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muraqabah.png; path = ../../muraqabah.png; sourceTree = "<group>"; };
+		091321A4218B40C700D5B6AC /* muhasabah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muhasabah.png; path = ../../muhasabah.png; sourceTree = "<group>"; };
+		091321A6218B447400D5B6AC /* mujahada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mujahada.png; path = ../../mujahada.png; sourceTree = "<group>"; };
+		091321A8218B4C9400D5B6AC /* tanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tanda.png; path = ../../tanda.png; sourceTree = "<group>"; };
+		091321AA218B521200D5B6AC /* org tua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "org tua.png"; path = "../../org tua.png"; sourceTree = "<group>"; };
+		091321AC218B546900D5B6AC /* anak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anak.png; path = ../../anak.png; sourceTree = "<group>"; };
+		091321AE218B564A00D5B6AC /* saudara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saudara.png; path = ../../saudara.png; sourceTree = "<group>"; };
+		091321B0218BDB1400D5B6AC /* suami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suami.png; path = ../../suami.png; sourceTree = "<group>"; };
+		091321B2218BDE9B00D5B6AC /* kerabat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kerabat.png; path = ../../kerabat.png; sourceTree = "<group>"; };
+		091321B4218BE14300D5B6AC /* tetangag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tetangag.png; path = ../../tetangag.png; sourceTree = "<group>"; };
+		091321B6218BE49100D5B6AC /* haka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = haka.png; path = ../../haka.png; sourceTree = "<group>"; };
+		091321B8218BE7F300D5B6AC /* kafir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kafir.png; path = ../../kafir.png; sourceTree = "<group>"; };
+		091321BA218BE99300D5B6AC /* sayang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sayang.png; path = ../../sayang.png; sourceTree = "<group>"; };
+		091321BC218BED8C00D5B6AC /* tangan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tangan.png; path = ../../tangan.png; sourceTree = "<group>"; };
+		091321BE218C315200D5B6AC /* Screenshot 2018-11-02 at 14.16.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2018-11-02 at 14.16.15.png"; path = "../../Screenshot 2018-11-02 at 14.16.15.png"; sourceTree = "<group>"; };
+		091321C0218C392600D5B6AC /* Screenshot 2018-11-02 at 14.48.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2018-11-02 at 14.48.14.png"; path = "../../Screenshot 2018-11-02 at 14.48.14.png"; sourceTree = "<group>"; };
+		091321C2218C8EDC00D5B6AC /* 11925.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11925.jpg; path = ../../11925.jpg; sourceTree = "<group>"; };
+		091321C4218C919600D5B6AC /* tamu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tamu.png; path = ../../tamu.png; sourceTree = "<group>"; };
+		091321C6218C939200D5B6AC /* far.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = far.png; path = ../../far.png; sourceTree = "<group>"; };
+		0937D41E218A933A00709142 /* Akidah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akidah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0937D421218A933A00709142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0937D423218A933A00709142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0937D426218A933A00709142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0937D42B218A933C00709142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0937D42D218A933C00709142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0937D433218A959800709142 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../image.png; sourceTree = "<group>"; };
+		0937D435218A9B1100709142 /* Screenshot 2018-11-01 at 09.21.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2018-11-01 at 09.21.55.png"; path = "../../Screenshot 2018-11-01 at 09.21.55.png"; sourceTree = "<group>"; };
+		0937D437218A9C6900709142 /* allah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = allah.png; path = ../../allah.png; sourceTree = "<group>"; };
+		0937D439218A9D6800709142 /* al Quran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "al Quran.png"; path = "../../al Quran.png"; sourceTree = "<group>"; };
+		0937D43B218AA4EE00709142 /* muhammad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = muhammad.png; path = ../../muhammad.png; sourceTree = "<group>"; };
+		0937D43D218AA5A600709142 /* Diri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Diri.png; path = ../../Diri.png; sourceTree = "<group>"; };
+		0937D43F218AA77F00709142 /* makhluk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = makhluk.png; path = ../../makhluk.png; sourceTree = "<group>"; };
+		0937D441218AA82300709142 /* bersaudara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bersaudara.png; path = ../../bersaudara.png; sourceTree = "<group>"; };
+		0937D443218AA90A00709142 /* majlis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = majlis.png; path = ../../majlis.png; sourceTree = "<group>"; };
+		0937D445218AABA800709142 /* makan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = makan.png; path = ../../makan.png; sourceTree = "<group>"; };
+		0937D447218AAE9C00709142 /* Safar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Safar.png; path = ../../Safar.png; sourceTree = "<group>"; };
+		0937D448218AAE9C00709142 /* Fitrah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fitrah.png; path = ../../Fitrah.png; sourceTree = "<group>"; };
+		0937D449218AAE9C00709142 /* Bertamu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bertamu.png; path = ../../Bertamu.png; sourceTree = "<group>"; };
+		0937D44A218AAE9D00709142 /* Tidur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tidur.png; path = ../../Tidur.png; sourceTree = "<group>"; };
+		0937D44F218AAF5000709142 /* Berpakain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Berpakain.png; path = ../../Berpakain.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0937D41B218A933A00709142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0937D415218A933A00709142 = {
+			isa = PBXGroup;
+			children = (
+				091321C4218C919600D5B6AC /* tamu.png */,
+				091321C2218C8EDC00D5B6AC /* 11925.jpg */,
+				091321C0218C392600D5B6AC /* Screenshot 2018-11-02 at 14.48.14.png */,
+				091321BE218C315200D5B6AC /* Screenshot 2018-11-02 at 14.16.15.png */,
+				091321BC218BED8C00D5B6AC /* tangan.png */,
+				091321BA218BE99300D5B6AC /* sayang.png */,
+				091321B8218BE7F300D5B6AC /* kafir.png */,
+				091321B6218BE49100D5B6AC /* haka.png */,
+				091321B4218BE14300D5B6AC /* tetangag.png */,
+				091321B2218BDE9B00D5B6AC /* kerabat.png */,
+				091321B0218BDB1400D5B6AC /* suami.png */,
+				091321AE218B564A00D5B6AC /* saudara.png */,
+				091321AC218B546900D5B6AC /* anak.png */,
+				091321AA218B521200D5B6AC /* org tua.png */,
+				091321A8218B4C9400D5B6AC /* tanda.png */,
+				091321A6218B447400D5B6AC /* mujahada.png */,
+				091321A4218B40C700D5B6AC /* muhasabah.png */,
+				091321A2218B3EBF00D5B6AC /* muraqabah.png */,
+				091321A0218B3B6600D5B6AC /* tuabat.png */,
+				0937D44F218AAF5000709142 /* Berpakain.png */,
+				0937D449218AAE9C00709142 /* Bertamu.png */,
+				0937D447218AAE9C00709142 /* Safar.png */,
+				0937D448218AAE9C00709142 /* Fitrah.png */,
+				0937D44A218AAE9D00709142 /* Tidur.png */,
+				0937D445218AABA800709142 /* makan.png */,
+				0937D443218AA90A00709142 /* majlis.png */,
+				0937D441218AA82300709142 /* bersaudara.png */,
+				0937D43F218AA77F00709142 /* makhluk.png */,
+				0937D43D218AA5A600709142 /* Diri.png */,
+				0937D43B218AA4EE00709142 /* muhammad.png */,
+				0937D439218A9D6800709142 /* al Quran.png */,
+				0937D437218A9C6900709142 /* allah.png */,
+				0937D435218A9B1100709142 /* Screenshot 2018-11-01 at 09.21.55.png */,
+				091321C6218C939200D5B6AC /* far.png */,
+				0937D433218A959800709142 /* image.png */,
+				0937D420218A933A00709142 /* Akidah */,
+				0937D41F218A933A00709142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0937D41F218A933A00709142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0937D41E218A933A00709142 /* Akidah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0937D420218A933A00709142 /* Akidah */ = {
+			isa = PBXGroup;
+			children = (
+				0937D421218A933A00709142 /* AppDelegate.swift */,
+				0937D423218A933A00709142 /* ViewController.swift */,
+				0937D425218A933A00709142 /* Main.storyboard */,
+				0937D42A218A933C00709142 /* LaunchScreen.storyboard */,
+				0937D42D218A933C00709142 /* Info.plist */,
+			);
+			path = Akidah;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0937D41D218A933A00709142 /* Akidah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0937D430218A933C00709142 /* Build configuration list for PBXNativeTarget "Akidah" */;
+			buildPhases = (
+				0937D41A218A933A00709142 /* Sources */,
+				0937D41B218A933A00709142 /* Frameworks */,
+				0937D41C218A933A00709142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akidah;
+			productName = Akidah;
+			productReference = 0937D41E218A933A00709142 /* Akidah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0937D416218A933A00709142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = fauzanfaurezs;
+				TargetAttributes = {
+					0937D41D218A933A00709142 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 0937D419218A933A00709142 /* Build configuration list for PBXProject "Akidah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0937D415218A933A00709142;
+			productRefGroup = 0937D41F218A933A00709142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0937D41D218A933A00709142 /* Akidah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0937D41C218A933A00709142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091321C7218C939300D5B6AC /* far.png in Resources */,
+				091321C5218C919600D5B6AC /* tamu.png in Resources */,
+				091321C3218C8EDD00D5B6AC /* 11925.jpg in Resources */,
+				091321C1218C392600D5B6AC /* Screenshot 2018-11-02 at 14.48.14.png in Resources */,
+				091321BF218C315300D5B6AC /* Screenshot 2018-11-02 at 14.16.15.png in Resources */,
+				091321BD218BED8C00D5B6AC /* tangan.png in Resources */,
+				091321BB218BE99300D5B6AC /* sayang.png in Resources */,
+				091321B9218BE7F400D5B6AC /* kafir.png in Resources */,
+				091321B7218BE49100D5B6AC /* haka.png in Resources */,
+				091321B5218BE14300D5B6AC /* tetangag.png in Resources */,
+				091321B3218BDE9B00D5B6AC /* kerabat.png in Resources */,
+				091321B1218BDB1400D5B6AC /* suami.png in Resources */,
+				091321AF218B564A00D5B6AC /* saudara.png in Resources */,
+				091321AD218B546A00D5B6AC /* anak.png in Resources */,
+				091321AB218B521300D5B6AC /* org tua.png in Resources */,
+				091321A9218B4C9400D5B6AC /* tanda.png in Resources */,
+				091321A7218B447400D5B6AC /* mujahada.png in Resources */,
+				091321A5218B40C800D5B6AC /* muhasabah.png in Resources */,
+				091321A3218B3EBF00D5B6AC /* muraqabah.png in Resources */,
+				091321A1218B3B6700D5B6AC /* tuabat.png in Resources */,
+				0937D450218AAF5000709142 /* Berpakain.png in Resources */,
+				0937D44B218AAE9D00709142 /* Safar.png in Resources */,
+				0937D44C218AAE9D00709142 /* Fitrah.png in Resources */,
+				0937D44D218AAE9D00709142 /* Bertamu.png in Resources */,
+				0937D44E218AAE9D00709142 /* Tidur.png in Resources */,
+				0937D446218AABA800709142 /* makan.png in Resources */,
+				0937D444218AA90A00709142 /* majlis.png in Resources */,
+				0937D442218AA82300709142 /* bersaudara.png in Resources */,
+				0937D440218AA78000709142 /* makhluk.png in Resources */,
+				0937D43E218AA5A600709142 /* Diri.png in Resources */,
+				0937D43C218AA4EE00709142 /* muhammad.png in Resources */,
+				0937D43A218A9D6800709142 /* al Quran.png in Resources */,
+				0937D438218A9C6900709142 /* allah.png in Resources */,
+				0937D436218A9B1100709142 /* Screenshot 2018-11-01 at 09.21.55.png in Resources */,
+				0937D434218A959800709142 /* image.png in Resources */,
+				0937D42C218A933C00709142 /* LaunchScreen.storyboard in Resources */,
+				0937D427218A933A00709142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0937D41A218A933A00709142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0937D424218A933A00709142 /* ViewController.swift in Sources */,
+				0937D422218A933A00709142 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0937D425218A933A00709142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0937D426218A933A00709142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0937D42A218A933C00709142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0937D42B218A933C00709142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0937D42E218A933C00709142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0937D42F218A933C00709142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0937D431218A933C00709142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akidah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fauzanfaurezs.Akidah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0937D432218A933C00709142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Akidah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fauzanfaurezs.Akidah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0937D419218A933A00709142 /* Build configuration list for PBXProject "Akidah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0937D42E218A933C00709142 /* Debug */,
+				0937D42F218A933C00709142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0937D430218A933C00709142 /* Build configuration list for PBXNativeTarget "Akidah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0937D431218A933C00709142 /* Debug */,
+				0937D432218A933C00709142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0937D416218A933A00709142 /* Project object */;
+}
